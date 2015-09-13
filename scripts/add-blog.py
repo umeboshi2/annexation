@@ -49,7 +49,7 @@ def add_photos_to_annex(photos, annexdir, blogdir=None):
     if blogdir is not None:
         if not os.path.isdir(blogdir):
             os.makedirs(blogdir)
-            os.chdir(blogdir)
+        os.chdir(blogdir)
     for pdata in photos:
         url_count = 0
         for url in pdata['photos']:
