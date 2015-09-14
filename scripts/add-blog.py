@@ -142,7 +142,7 @@ if __name__ == '__main__':
     total_desired = None
     if len(sys.argv) == 3:
         total_desired = int(sys.argv[2])
-    pfilename = 'current-blog.pickle'
+    pfilename = 'current-%s.pickle' % blogname
     if os.path.isfile(pfilename):
         bp = Pickle.load(file(pfilename))
     else:
