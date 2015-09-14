@@ -62,7 +62,7 @@ def add_photos_to_annex(photos, annexdir, blogdir=None):
                 filename = filename_tmpl % (pdata['post']['id'], url_count, ext)
                 cmd += ['--file', filename]
                 cmd.append(url)
-            if os.path.exists(filename):
+            if os.path.islink(filename):
                 print "%s already exists, skipping." % filename
                 continue
             try:
