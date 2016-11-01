@@ -1,0 +1,7 @@
+22993972-5019-4fac-b0e9-12264894a7b4 encryption=none name=mybook rsyncurl=mybooklive:/shares/tbannex type=rsync timestamp=1442703055.308221s
+22993972-5019-4fac-b0e9-12264894a7b4 encryption=none name=mybook rsyncurl=mybooklive:/shares/tbannex type=rsync timestamp=1442703284.212951s
+22993972-5019-4fac-b0e9-12264894a7b4 encryption=none name=mybook rsyncurl=mybooklive:/shares/tbannex type=rsync timestamp=1443379656.13996s
+22993972-5019-4fac-b0e9-12264894a7b4 encryption=none name=mybook rsyncurl=mybooklive:/shares/tbannex type=rsync timestamp=1453147980.435607s
+50d88616-8341-4cf2-8d61-b9d471d8ba76 location=git@gitlab.com:umeboshi2/annexation.git name=gitlab.com_umeboshi2_annexation.git type=git timestamp=1451334341.992969s
+cd0ca0b0-dc34-483e-997c-5e0388879efa encryption=none name=dirannex type=directory timestamp=1451351302.802706s
+cd0ca0b0-dc34-483e-997c-5e0388879efa encryption=none name=dirannex type=directory timestamp=1454004888.873431s
